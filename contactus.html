@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="K Lasya Rao">
+        <meta name="description" content="Contact Us page for myTacoShop Website">
+        <title>Contact-Us</title>
+        <link rel="stylesheet" href="contactus.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section id="sectionContact" class="background p-5">
+            <h1 class="heading">CONTACT US</h1>
+            <P >Please Contact us about any queries</P>
+            <form action="https://httpbin.org/get" method="get">
+                <!-- for value should match the id value -->
+                
+                        <label for="firstName" class="col-6">First Name</label >
+                        <input type="text" name="firstName"
+                        id="firstName" class="col-6" placeholder="Jane" autocomplete="on"
+                            required autofocus>
+                        </div>
+                        <br>
+                        <br>
+                        <label for="lastName" class="col-6">Last Name</label >
+                        <input type="text" name="lastName"
+                        id="lastName" class="col-6" placeholder="Doe" autocomplete="on" required>
+                            <br>
+                            <br>
+                        <label for="phone" class="col-6">Phone No.</label >
+                        <input type="tel" name="phone"
+                        id="phone" class="col-6" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" autocomplete="on" required>
+                        <br>
+                        <br>
+                        <label for="address" class="col-6">Address</label >
+                        <input type="text" name="address"
+                        id="address" class="col-6" autocomplete="on" required>
+                        <br>
+                        <br>
+                    
+            </form>
+            <div>
+
+            </div>
+        </section>
+    </body>
+</html>

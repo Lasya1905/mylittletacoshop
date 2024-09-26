@@ -1,0 +1,26 @@
+.heading{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Roboto";
+    color: white;
+}
+p{
+    color: white;
+    font-family: "Roboto";
+    font-size: 30px;
+}
+label{
+    color: white;
+}
+.background{
+    background-image: url("https://img.freepik.com/free-photo/various-vegetables-black-table-with-space-message_1220-616.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1714262400&semt=ais");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+input{
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+    margin: 20px;
+}
